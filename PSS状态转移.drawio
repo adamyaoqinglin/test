@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T07:10:27.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="r2gN9BC90feZYRFqM2xA" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T07:42:08.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="WhxZues0Je1WjAzLOvlE" version="14.6.13" type="github">
   <diagram id="yd9c1y7cqodbTIlOPILq" name="第 1 页">
     <mxGraphModel dx="1298" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,11 +123,33 @@
         <mxCell id="ALu-bki9AxwIx_Ugg1ty-35" value="&lt;h1&gt;调拨出库&lt;/h1&gt;&lt;p&gt;这里的调拨出库，是指从一个仓库调拨到另一个仓库内。是仓库和仓库之间的商品运送。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="10" width="190" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-36" target="ALu-bki9AxwIx_Ugg1ty-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-42" value="自动分配、常规品分货、资源品分货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-41">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ALu-bki9AxwIx_Ugg1ty-36" value="商品在渠道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="310" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ALu-bki9AxwIx_Ugg1ty-39" value="&lt;h1&gt;渠道分货&lt;/h1&gt;&lt;p&gt;渠道分货是指大销售运营将已有的商品分配给各个渠道，根据各个渠道的一些指标。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="220" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-40" target="ALu-bki9AxwIx_Ugg1ty-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-45" value="门店调拨" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-44">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-40" value="商品分配给门店" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="390" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-43" value="商品在门店" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="470" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
