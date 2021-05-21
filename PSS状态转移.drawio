@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T01:44:48.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.6.13" etag="OD7LWvShu-9yVNk1hDye" type="github"><diagram id="yd9c1y7cqodbTIlOPILq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-21T07:10:27.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="r2gN9BC90feZYRFqM2xA" version="14.6.13" type="github">
+  <diagram id="yd9c1y7cqodbTIlOPILq" name="第 1 页">
+    <mxGraphModel dx="1298" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-3" value="生成" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-1" target="ALu-bki9AxwIx_Ugg1ty-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-2" target="ALu-bki9AxwIx_Ugg1ty-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-9" value="生产" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-5">
+          <mxGeometry x="-0.0857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-2" value="商品PO单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-4" value="&lt;h1&gt;PO单&lt;/h1&gt;&lt;p&gt;PO是purchase order，由采购在SRM进行生成，导入SAP。SRM会负责跟踪这个PO单的情况。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-6" target="ALu-bki9AxwIx_Ugg1ty-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-13" value="A类分货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-12">
+          <mxGeometry x="0.0167" y="-1" relative="1" as="geometry">
+            <mxPoint x="18" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-23" target="ALu-bki9AxwIx_Ugg1ty-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-6" target="ALu-bki9AxwIx_Ugg1ty-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="280" />
+              <mxPoint x="585" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-21" value="C类分货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-20">
+          <mxGeometry x="0.0686" y="-1" relative="1" as="geometry">
+            <mxPoint x="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-6" value="商品可提" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-10" value="&lt;h1&gt;生产&lt;/h1&gt;&lt;p&gt;生产环节是工厂进行的，在生产出货物以后，货物的信息会被维护在SRM中。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-11" target="ALu-bki9AxwIx_Ugg1ty-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-11" value="商品待分车" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-14" target="ALu-bki9AxwIx_Ugg1ty-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-30" value="发货运输入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-27">
+          <mxGeometry x="0.05" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-14" value="商品已分未发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-23" value="B类分货" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="225" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-6" target="ALu-bki9AxwIx_Ugg1ty-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="235" as="sourcePoint" />
+            <mxPoint x="610" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-25" value="&lt;h1&gt;A类/B类/C类&lt;/h1&gt;&lt;p&gt;A类是：小米自己的仓库发&lt;/p&gt;&lt;p&gt;B类是：供应商送货，按可提量&lt;/p&gt;&lt;p&gt;C类是：供应商送货，按PO分货&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-26" target="ALu-bki9AxwIx_Ugg1ty-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-26" target="ALu-bki9AxwIx_Ugg1ty-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-38" value="渠道分货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-37">
+          <mxGeometry x="0.2333" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-26" value="商品在仓" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-31" value="&lt;h1&gt;发货运输&lt;/h1&gt;&lt;p&gt;发货运输需要两个条件满足才能被触发，1. 提货计划， 2. ASN&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-33" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ALu-bki9AxwIx_Ugg1ty-26" target="ALu-bki9AxwIx_Ugg1ty-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="270" as="sourcePoint" />
+            <mxPoint x="900" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="250" />
+              <mxPoint x="860" y="230" />
+              <mxPoint x="810" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-34" value="调拨出库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALu-bki9AxwIx_Ugg1ty-33">
+          <mxGeometry x="-0.1825" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-35" value="&lt;h1&gt;调拨出库&lt;/h1&gt;&lt;p&gt;这里的调拨出库，是指从一个仓库调拨到另一个仓库内。是仓库和仓库之间的商品运送。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="10" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-36" value="商品在渠道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ALu-bki9AxwIx_Ugg1ty-39" value="&lt;h1&gt;渠道分货&lt;/h1&gt;&lt;p&gt;渠道分货是指大销售运营将已有的商品分配给各个渠道，根据各个渠道的一些指标。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="220" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
